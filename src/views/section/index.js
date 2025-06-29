@@ -1,0 +1,1 @@
+export {default as TestimoniSection} from './TestimoniSection.vue'
