@@ -7,6 +7,7 @@ import { CardProduct } from '../components/card'
 import { Container } from '@/components/layouts'
 import { products } from '@/assets/data/products'
 import { TestimoniSection } from '@/views/section'
+import FooterSection from './section/FooterSection.vue'
 
 const images = [img1, img2, img3, img4, img5]
 const logos = [logo1, logo2, logo3, logo4, logo5]
@@ -181,5 +182,7 @@ const buttons = [
         </div>
       </Container>
     </section>
+
+    <FooterSection />
   </div>
 </template>
