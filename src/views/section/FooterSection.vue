@@ -22,6 +22,7 @@ const footersMenu = [
 </script>
 
 <template>
+  <!-- Main Footer Section -->
   <section class="w-full min-h-[50vh] bg-[#5C59D4] py-10">
     <Container class=" flex flex-col items-center space-y-4">
       <div class="flex items-center space-y-10 space-x-20 w-full">
