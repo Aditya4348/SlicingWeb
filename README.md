@@ -1,29 +1,25 @@
-# latihan_vue
+# 🎓 Tugas Akhir Bootcamp NextsSkill – Latihan Vue 3
 
-This template should help get you started developing with Vue 3 in Vite.
+Ini adalah proyek **Tugas Akhir** dari bootcamp **Frontend Development - NextsSkill**, di mana peserta diminta untuk membuat website dengan teknologi **Vue 3** dan **Vite**, berdasarkan desain antarmuka yang sudah disediakan melalui **Figma**. Proyek ini menjadi bukti akhir kemampuan peserta dalam mengimplementasikan teori ke dalam praktik nyata.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🧩 Teknologi yang Digunakan
 
-## Customize configuration
+| Teknologi     | Keterangan                                                      |
+|---------------|------------------------------------------------------------------|
+| [Vue 3](https://vuejs.org/)       | Framework JavaScript progresif untuk membangun UI            |
+| [Vite](https://vitejs.dev/)       | Build tool super cepat yang ringan dan modern                |
+| [Figma](https://figma.com/)       | Desain UI/UX sebagai acuan dalam pembuatan tampilan          |
+| Tailwind CSS *(jika digunakan)*   | CSS framework untuk styling responsif dan efisien            |
+| Pinia / Vue Router *(opsional)*   | Untuk state management & navigasi halaman                    |
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🛠️ Cara Menjalankan Proyek
 
-```sh
-npm install
-```
+### 📦 1. Clone Repository
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+```bash
+git clone https://github.com/username/latihan_vue.git
+cd latihan_vue
