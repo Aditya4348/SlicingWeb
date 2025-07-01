@@ -24,15 +24,15 @@ const footersMenu = [
 <template>
   <!-- Main Footer Section -->
   <section class="w-full min-h-[50vh] bg-[#5C59D4] py-10">
-    <Container class=" flex flex-col items-center space-y-4">
-      <div class="flex items-center space-y-10 space-x-20 w-full">
-        <div class="flex flex-col space-y-2 w-[15%]">
+    <Container class=" flex flex-col items-center max-w-7xl space-y-4">
+      <div class="flex md:flex-row flex-col md:items-center space-y-5 space-x-20 w-full">
+        <div class="flex flex-col space-y-2 md:w-[15%] w-[35%]">
           <h1 class="text-5xl font-bold text-white">LOGO</h1>
           <p class="text-sm text-[#F5F5F5]">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quaerat!
           </p>
         </div>
-        <div class="flex cursor-default justify-between space-x-20 w-[75%]">
+        <div class="flex md:flex-row flex-col cursor-default justify-between md:space-x-20 space-y-5 w-[75%]">
           <div class="flex flex-col space-y-2" v-for="menu in footersMenu">
             <h1 class="text-xl font-semibold text-white">{{ menu.menu }}</h1>
             <ul class="flex flex-col space-y-2 text-sm text-[#F5F5F5]">

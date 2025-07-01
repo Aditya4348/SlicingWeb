@@ -27,7 +27,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="w-[300px] h-[400px] rounded-xl shadow-md flex flex-col items-center p-4 space-y-2">
+    <div class="md:w-[300px] md:h-[400px] w-[40%] h-auto rounded-xl shadow-md flex flex-col items-center p-4 space-y-2">
     
     <!-- Gambar dan Judul Singkat -->
     <div class="w-full h-[85%] bg-[#f5f5f5] relative flex flex-col items-center justify-center space-y-2">

@@ -16,7 +16,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="flex flex-col min-w-[500px]  h-auto bg-white shadow-lg rounded-lg p-8 space-y-4">
+  <div class="flex flex-col min-w-[400px]  h-auto bg-white shadow-lg rounded-lg p-8 space-y-4">
     <div class="flex items-center space-x-2">
       <span class="pi pi-bookmark-fill text-gray-600"></span>
       <span class="text-gray-500 text-sm">Testimoni</span>
