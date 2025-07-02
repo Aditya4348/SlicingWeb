@@ -135,7 +135,7 @@ const buttons = [
     <!-- Card Product -->
     <div class="flex flex-col items-center space-y-2 my-10">
       <h1 class="text-3xl font-semibold text-gray-900">Crafted With Excellent Material</h1>
-      <p class="text-lg text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p class="md:text-lg text-sm text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
     <Container class="my-10 flex flex-wrap md:max-w-7xl justify-center space-x-3">
       <CardProduct
