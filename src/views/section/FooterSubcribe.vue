@@ -21,7 +21,7 @@ const testimonial = [
         <!-- Testimonial dengan efek tangga -->
         <div class="flex md:flex-row flex-col-reverse space-y-4">
           <div
-            class="flex flex-col min-w-[500px] h-auto rounded-lg md:space-y-4 space-y-2"
+            class="flex flex-col md:min-w-[500px] w-full h-auto rounded-lg md:space-y-4 space-y-1"
             v-for="(testimoni, index) in testimonial"
             :key="index"
             :style="`margin-top: ${index * 40}px`"
@@ -33,7 +33,7 @@ const testimonial = [
                 <p class="text-sm text-gray-500">Customer</p>
               </div>
             </div>
-            <p class="text-gray-700 text-sm font-normal font-sans">
+            <p class="text-gray-700 text-sm bg-[#f5f5f5] w-full p-4 font-normal font-sans">
               {{ testimoni.testimoni }}
             </p>
             <div class="flex items-center space-x-4">

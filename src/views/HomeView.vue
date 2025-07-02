@@ -89,7 +89,7 @@ const buttons = [
 
 
 <template>
-  <div>
+  <div class="bg-amber-400">
     <Navbar />
 
     <div class="flex flex-col items-center space-y-5">
